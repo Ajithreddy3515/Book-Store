@@ -1,0 +1,15 @@
+table{
+    width: 100%;
+    background-color: #e8dfdf;
+}
+
+.mat-column-Description
+{
+
+    width: 35% !important;
+}
+
+table td{
+padding: 10px;
+}
+

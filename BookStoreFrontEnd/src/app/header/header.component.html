@@ -1,0 +1,87 @@
+<!-- <mat-toolbar color="primary">
+   
+ <span>
+    Grocery Store Application
+  </span>
+
+  <span class="space-buttons"></span>
+   <div *ngIf="!isLoggedIn"> 
+    <button mat-raised-button routerLink="/login" color="primary">
+      Login
+    </button>
+  </div> 
+
+  <div> 
+    <button  mat-raised-button color="warn">
+      Logout
+    </button>
+   </div>  -->
+   
+  
+
+<!-- <mat-toolbar color="primary">
+ 
+  <span class="space-buttons"></span>
+  <button *ngIf="! isLoggedIn()" routerLink="/login" color="primary">
+    Login
+  </button>
+
+  <button *ngIf="isLoggedIn()" (click)="logout()" mat-raised-button color="warn">
+    Logout
+  </button>
+
+</mat-toolbar>
+
+<mat-toolbar color="primary" *ngIf="isLoggedIn()">
+  <button mat-raised-button class="primary" routerLink="/">Home</button>
+  <button *ngIf="isAdmin()" mat-raised-button class="primary" routerLink="/addNewProduct">Add new product</button> 
+</mat-toolbar> -->
+
+<nav class="navbar navbar-expand-lg " >
+  <div class="container-fluid">
+    <h2 class="navbar-brand" routerLink="" style="font-weight: 700;"><img src="https://cdn-icons-png.flaticon.com/512/72/72453.png">
+      <span style="color: rgb(6, 6, 6); font-weight:bolder; font-style: oblique;">Book</span> Botique</h2>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+
+       
+      </ul>
+      
+
+      <button *ngIf="! isLoggedIn()" type="button" style="background-color: #907070; color: rgb(246, 246, 246); padding: 5px;
+      padding-left: 10px; padding-right: 10px;" routerLink="/login">Login</button>
+      <button *ngIf="isLoggedIn()" type="button" style="background-color: #907070; color: rgb(246, 246, 246); padding: 5px;
+      padding-left: 10px; padding-right: 10px;" (click)="logout()" >Logout</button>
+    </div>
+  </div>
+</nav> 
+
+
+<nav class="navbar navSecLen navbar-expand-lg ">
+  <div class="text-center container-fluid">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+
+    <a  routerLink="/"  routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">Home</a>
+    <a  routerLink="/allproducts"  routerLinkActive="active-link" >All Products</a>
+    
+    <a routerLink="/booklist"   routerLinkActive="active-link" >Book List</a>
+    <a routerLink="/aboutUs"  routerLinkActive="active-link" >AboutUs</a>
+    <div *ngIf="isLoggedIn()">
+    <a  *ngIf="!isAdmin()" routerLink="/cart"  routerLinkActive="active-link">Cart</a>
+    <a  *ngIf="!isAdmin()" routerLink="/myOrders"  routerLinkActive="active-link">My Orders</a>
+    <a  *ngIf="isAdmin()" routerLink="/addNewProduct" routerLinkActive="active-link">Add Product</a>
+    <a *ngIf="isAdmin()" routerLink="/showProductDetails" routerLinkActive="active-link">Product Details</a>
+    <a  *ngIf="isAdmin()" routerLink="/orderInformation" routerLinkActive="active-link"> All Orders</a>
+    <a  *ngIf="isAdmin()" routerLink="/allUsers" routerLinkActive="active-link"> All Users</a>
+    
+
+    
+  </div>
+  </div>
+  </div>
+
+</nav>

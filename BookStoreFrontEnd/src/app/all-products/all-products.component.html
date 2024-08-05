@@ -1,0 +1,53 @@
+<div class="page-body">
+<div class="custom-container">
+  <div class="custom-step mt-5">
+    <h1 class="custom-heading mb-3">Explore <i>Books</i></h1>
+  </div>
+</div>
+
+<div class="custom-container">
+  <div class="custom-search w-75">
+    <div class="input-icons">
+      <i class="bi bi-search icon"></i>
+      <input class="custom-input" matInput #searchkeyword (keyup)="searchByKeyword(searchkeyword.value)" ngModel name="searchKey" id="searchKey" placeholder="Search any book">
+    </div>
+  </div>
+</div>
+
+<div class="custom-container">
+  <div class="row custom-row">
+    <div class="col-lg-3 custom-col" *ngFor="let p of productDetails">
+      <div class="custom-card p-3 mt-5" (click)="showProductDetails(p.productId)">
+        <div class="image-container">
+          <img class="custom-image" [src]="p.productImages[0].url" alt="">
+        </div>
+        <div class="custom-title">
+          <p>{{p.productName}}</p>
+        </div>
+        <div class="custom-description">
+          <p>{{p.productDescription}}</p>
+        </div>
+        <div class="custom-price">
+          <b><i class="bi bi-currency-rupee"></i>Rs.{{p.productDiscountedPrice}}</b> &nbsp;&nbsp;
+          <span class="custom-old-price">Rs.{{p.productActualPrice}}</span>
+        </div>
+        <div class="custom-buttons mt-2">
+          <p>
+          <button type="button" class="custom-button view-button" (click)="showProductDetails(p.productId)">View Details</button>
+          <button type="button" class="custom-button add-button" (click)="addToCart(p.productId)">Add To Cart</button>
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-5 custom-view-more" *ngIf="showLoadButton">
+  <button type="button" class="custom-button view-more-button" (click)="loadMoreProduct()">View more</button>
+</div>
+
+</div>
+
+<div class="custom-footer">
+  <app-footer></app-footer>
+</div>

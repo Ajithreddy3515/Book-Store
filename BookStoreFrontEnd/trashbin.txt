@@ -1,0 +1,151 @@
+margin-top: 50px;
+ 
+ style="color: black;"
+ 
+color="warn"
+ 
+li {
+    font-family: cursive;
+}
+ 
+.container {
+  font-family: cursive;
+}
+ 
+.container {
+    font-family: cursive;
+}
+ 
+.container {
+  font-family: cursive;
+}
+ 
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+ 
+Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+ 
+ Arial, Helvetica, sans-serif
+ 
+t-family: cursive;
+ 
+color="warn"
+ 
+body, html {
+    background-image: url('src/assets/home_bkgd.jpg');
+    background-size: cover;
+    background-position: center;
+}
+ 
+container {
+    background-image: url('src/assets/home_bkgd.jpg');
+    background-size: cover;
+    background-position: center;
+}
+ 
+green
+ 
+lign-items: center;
+ 
+ext-align: center;
+ 
+  margin-left: 500px;
+ 
+justify-content: center;
+ 
+ext-align: center;
+ 
+align-items: center;
+ 
+padding-left: 100px;
+ 
+input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc; /* Default border color */
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+/* Style for the placeholder text */
+input[type="text"]::placeholder {
+  color: #999; /* Placeholder text color */
+}
+
+/* Style for the input field when focused */
+input[type="text"]:focus {
+  outline: none; /* Remove the default focus outline */
+  border-color: #66afe9; /* New border color when focused */
+}
+ 
+.imgBG {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  filter: contrast(175%) brightness(150%); 
+}
+ 
+div
+ 
+ width: 100%;
+ 
+position: relative;
+ 
+ */
+ 
+ /* 
+ 
+ssets/book2.jpg
+ 
+padding-left: 50px;
+ 
+ cover
+ 
+style="font-size: 30px;"
+ 
+ style="margin:0;"
+ 
+ style="margin: 0;"
+ 
+style="font-size: 30px;"
+ 
+
+            
+ 
+
+                
+ 
+
+           
+ 
+
+                
+ 
+</div>
+ 
+<div class="content">
+ 
+Thank you for visiting Book Botique. Join us in celebrating the joy of reading and exploring 
+                the endless possibilities that books bring to our lives.
+ 
+Welcome to our book store, where reading meets convenience and passion! Founded with a 
+                love for literature and a commitment to delivering exceptional service, we are dedicated to providing 
+                book enthusiasts with a diverse selection of titles from every genre imaginable. Whether you're searching for the 
+                latest bestseller, a classic novel, or a niche non-fiction title, our carefully curated collection ensures 
+                there's something for everyone. 
+ 
+font-weight: lighter;
+ 
+border:solid;
+ 
+border:solid;
+ 
+border:solid;
+ 
+border:solid;
+ 
+border:solid;
+ 
+border:solid;
+ 

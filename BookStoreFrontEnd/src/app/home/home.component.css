@@ -1,0 +1,133 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .bgColor {
+    background-color: #f0f0f0; /* Light gray background color */
+  }
+  
+  .text-bold {
+    font-weight: bold;
+  }
+  
+  /* Banner Section Styles */
+  
+  .banner2 {
+    /* background-color: #d4b8b8;  White background for banner */
+    background-image: url('src/assets/home_bkgd.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    /* padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */ /* Shadow for box */
+  }
+  
+  .banner2 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #1e2124;
+  }
+  
+  .banner2 .btn {
+    background-color: #d5c7c7; /* Light green background for button */
+    color: #000000; /* Black text color */
+    font-weight: bold;
+  }
+  
+  /* Feature Section Styles */
+  
+  .feature-box {
+    background-color: #d5c7c7; /* White background for feature boxes */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow for box */
+    margin-bottom: 30px;
+  }
+  
+  .feature-box h5 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Product Section Styles */
+
+  .product-box {
+    background-color: #ffffff; /* White background for product boxes */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow for box */
+    margin-bottom: 30px;
+  }
+  
+  .product-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .product-box h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  
+  .product-box p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+  
+  .product-box b {
+    font-size: 1.2rem;
+  }
+  
+  .product-box .btn {
+    font-size: 0.9rem;
+  }
+  
+  /* Search Box Styles */
+  
+  .search-box {
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .input-group-text {
+    background-color: #ffffff; /* White background for input group text */
+    border-color: #ced4da; /* Gray border color */
+  }
+  
+  .input-field {
+    border: 1px solid #ced4da; /* Gray border for input field */
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    font-size: 1rem;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #6cb2eb; /* Blue border color on focus */
+    box-shadow: 0 0 5px rgba(108, 178, 235, 0.5); /* Light blue shadow on focus */
+  }
+  
+  /* Footer Styles */
+  
+  .footer {
+    background-color: #d5c7c7; /* Dark background color for footer */
+    color: #060606; /* White text color */
+    padding: 20px 0;
+    
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  

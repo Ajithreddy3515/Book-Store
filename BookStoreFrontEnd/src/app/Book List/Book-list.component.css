@@ -1,0 +1,21 @@
+.grocerylist i{
+    color: #090909;
+    font-family: cursive;
+    
+}
+.grocerylist{
+    margin-top: 10px;
+}
+
+
+.BookClass {
+    background-image: url('src/assets/home_bkgd.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 10px;
+    padding-bottom: 200px;
+}
+
+img {
+    padding-left: 20px;
+}

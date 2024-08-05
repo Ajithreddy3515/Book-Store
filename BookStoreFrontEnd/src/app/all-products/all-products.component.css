@@ -1,0 +1,144 @@
+.custom-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+
+.custom-step {
+  text-align: center;
+}
+
+.custom-heading {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.custom-search {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.custom-input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.custom-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.custom-col {
+  flex: 0 0 calc(20% - 20px); /* Adjusted for 5 columns */
+  max-width: calc(20% - 20px); /* Adjusted for 5 columns */
+  margin: 0 10px;
+}
+
+.custom-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+  height: 550px; /* value of 100% Ensure all cards have equal height */
+}
+
+.custom-card:hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.custom-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.custom-title {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.custom-description {
+  text-align: center;
+  margin-top: 10px;
+  height: 50px; /* Limit height for description */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.custom-price {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.custom-old-price {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.custom-buttons {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.custom-button {
+  font-size: 14px;
+  padding: 3px 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-button.view-button {
+  background-color: #d5c7c7;
+  color: rgb(0, 0, 0);
+  margin-right: 10px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.custom-button.view-button:hover {
+  background-color: #a98b8b;
+}
+
+.custom-button.add-button {
+  background-color: #d5c7c7;
+  color: rgb(4, 4, 4);
+  padding: 5px;
+}
+
+.custom-button.add-button:hover {
+  background-color: #a98b8b;
+}
+
+.custom-view-more {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.custom-footer {
+  margin-top: 0;
+  text-align: center;
+}
+
+.page-body {
+  background-image: url('src/assets/home_bkgd.jpg');
+  background-size: cover;
+  /* background-position: center; */
+  margin: 0;
+  padding-bottom: 2px;
+  padding-top: 5px;
+}
+
+i {
+  color: white;
+}
